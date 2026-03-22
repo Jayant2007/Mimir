@@ -1,0 +1,205 @@
+[
+  {
+    "benchmark": "Mem2ActBench",
+    "condition": "mimir",
+    "n_evaluated": 100,
+    "time_seconds": 425.86870670318604,
+    "timestamp": "2026-03-22T18:11:32.076647",
+    "overall": {
+      "tool_accuracy": 0.44,
+      "f1": 0.5075887021475256,
+      "precision": 0.5411666666666667,
+      "recall": 0.5132930402930403,
+      "bleu1": 0.6422872984503419
+    },
+    "per_level": {
+      "L1": {
+        "n": 53,
+        "tool_accuracy": 0.5283018867924528,
+        "f1": 0.5606495428360023,
+        "bleu1": 0.6695669634348881
+      },
+      "L2": {
+        "n": 27,
+        "tool_accuracy": 0.1111111111111111,
+        "f1": 0.26090534979423874,
+        "bleu1": 0.5021970916898453
+      },
+      "L3": {
+        "n": 5,
+        "tool_accuracy": 0.4,
+        "f1": 0.5,
+        "bleu1": 0.5083333333333333
+      },
+      "L4": {
+        "n": 15,
+        "tool_accuracy": 0.7333333333333333,
+        "f1": 0.7666666666666667,
+        "bleu1": 0.8427128427128426
+      }
+    }
+  },
+  {
+    "benchmark": "MemoryBench",
+    "condition": "mimir",
+    "dataset": "WritingPrompts",
+    "seed": 42,
+    "n_train": 100,
+    "n_test": 50,
+    "time_seconds": 1160.9577996730804,
+    "timestamp": "2026-03-22T18:31:23.350689",
+    "overall": {
+      "meteor": 0.12112381504009463
+    }
+  },
+  {
+    "benchmark": "LoCoMo",
+    "condition": "mimir",
+    "n_questions": 1141,
+    "time_seconds": 126.93550372123718,
+    "timestamp": "2026-03-22T18:33:31.348366",
+    "overall": {
+      "recall@1": 0.4110429447852761,
+      "recall@3": 0.5486415425065732,
+      "recall@5": 0.6099912357581069,
+      "recall@10": 0.6888694127957932
+    },
+    "per_category": {
+      "single-hop": {
+        "n": 282,
+        "recall@1": 0.20567375886524822,
+        "recall@3": 0.32269503546099293,
+        "recall@5": 0.3900709219858156,
+        "recall@10": 0.48226950354609927
+      },
+      "multi-hop": {
+        "n": 321,
+        "recall@1": 0.5794392523364486,
+        "recall@3": 0.7102803738317757,
+        "recall@5": 0.7632398753894081,
+        "recall@10": 0.8442367601246106
+      },
+      "open-domain": {
+        "n": 92,
+        "recall@1": 0.2826086956521739,
+        "recall@3": 0.3804347826086957,
+        "recall@5": 0.43478260869565216,
+        "recall@10": 0.532608695652174
+      },
+      "temporal": {
+        "n": 446,
+        "recall@1": 0.4461883408071749,
+        "recall@3": 0.6098654708520179,
+        "recall@5": 0.6748878923766816,
+        "recall@10": 0.7399103139013453
+      }
+    },
+    "tfidf_baseline": {
+      "recall@1": 0.4583698510078878,
+      "recall@3": 0.6047326906222612,
+      "recall@5": 0.6485539000876425,
+      "recall@10": 0.7046450482033304
+    }
+  },
+  {
+    "benchmark": "LongMemEval",
+    "condition": "mimir",
+    "n_questions": 479,
+    "time_seconds": 119.425785779953,
+    "timestamp": "2026-03-22T18:35:30.940194",
+    "overall": {
+      "recall@1": 0.7265135699373695,
+      "recall@3": 0.906054279749478,
+      "recall@5": 0.9394572025052192,
+      "recall@10": 0.9603340292275574
+    },
+    "per_category": {
+      "knowledge-update": {
+        "n": 72,
+        "recall@1": 0.8472222222222222,
+        "recall@3": 0.9861111111111112,
+        "recall@5": 1.0,
+        "recall@10": 1.0
+      },
+      "multi-session": {
+        "n": 125,
+        "recall@1": 0.576,
+        "recall@3": 0.784,
+        "recall@5": 0.864,
+        "recall@10": 0.92
+      },
+      "single-session-assistant": {
+        "n": 56,
+        "recall@1": 0.6785714285714286,
+        "recall@3": 0.8928571428571429,
+        "recall@5": 0.9107142857142857,
+        "recall@10": 0.9107142857142857
+      },
+      "single-session-preference": {
+        "n": 30,
+        "recall@1": 0.6666666666666666,
+        "recall@3": 0.9666666666666667,
+        "recall@5": 1.0,
+        "recall@10": 1.0
+      },
+      "single-session-user": {
+        "n": 64,
+        "recall@1": 0.875,
+        "recall@3": 0.984375,
+        "recall@5": 1.0,
+        "recall@10": 1.0
+      },
+      "temporal-reasoning": {
+        "n": 132,
+        "recall@1": 0.7651515151515151,
+        "recall@3": 0.9318181818181818,
+        "recall@5": 0.946969696969697,
+        "recall@10": 0.9696969696969697
+      }
+    },
+    "tfidf_baseline": {
+      "recall@1": 0.7954070981210856,
+      "recall@3": 0.9352818371607515,
+      "recall@5": 0.9603340292275574,
+      "recall@10": 0.9749478079331941
+    }
+  },
+  {
+    "benchmark": "MSC",
+    "condition": "mimir",
+    "n_dialogues": 200,
+    "n_queries": 3955,
+    "time_seconds": 70.0526008605957,
+    "timestamp": "2026-03-22T18:36:43.680055",
+    "overall": {
+      "recall@1": 0.2743362831858407,
+      "recall@3": 0.29785082174462707,
+      "recall@5": 0.29987357774968393,
+      "recall@10": 0.30037926675094817
+    },
+    "tfidf_baseline": {
+      "recall@1": 0.2720606826801517,
+      "recall@3": 0.2963337547408344,
+      "recall@5": 0.3008849557522124,
+      "recall@10": 0.3013906447534766
+    }
+  },
+  {
+    "benchmark": "MTEB",
+    "condition": "mimir",
+    "timestamp": "2026-03-22T18:38:45.798675",
+    "stsb": {
+      "minilm_spearman": 0.8203013947512559,
+      "vivid_neutral_spearman": 0.8203013947512559,
+      "vivid_emotion_spearman": 0.8203013947512559,
+      "n_pairs": 1379
+    },
+    "goemotions": {
+      "vivid_knn_accuracy": 0.347,
+      "minilm_knn_accuracy": 0.347,
+      "knn_k": 5,
+      "n_train": 10000,
+      "n_test": 2000
+    }
+  }
+]

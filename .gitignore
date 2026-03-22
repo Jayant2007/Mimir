@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Source code — distributed via PyPI only
+Mimir.py
+_test_godtier.py
+
+# Data directories
+mimir_data/
+
+# Pytest / IDE caches
+.pytest_cache/
+.mypy_cache/
+.vscode/
+*.egg-info/
+dist/
+build/
+
+# OS files
+Thumbs.db
+.DS_Store
