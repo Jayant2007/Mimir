@@ -1,4 +1,4 @@
-﻿# M├¡mir ÔÇö The Ultimate Memory Architecture
+﻿# Mimir The Ultimate Memory Architecture
 
 <p align="center">
   <img src="MimirLogo.png" alt="M├¡mir Logo" width="300">
@@ -8,7 +8,7 @@
 [![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm--NC-blue)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-> *"M├¡mir, whose name means 'the rememberer,' was the wisest of the ├åsir.
+> *"Mimir, whose name means 'the rememberer,' was the wisest of the ├åsir.
 > Even after his death, Odin preserved his head and consulted it for counsel
 > and hidden knowledge. He guarded the Well of Wisdom beneath the world-tree
 > Yggdrasil ÔÇö the well whose waters held every memory and every truth that
